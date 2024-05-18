@@ -1,5 +1,5 @@
 baseURL: "https://talentafigan.github.io/"
-title: Talenta Figan
+title: Figan
 theme: PaperMod
 
 # build
@@ -9,7 +9,7 @@ buildExpired: false
 
 enableGitInfo : true
 
-copyright :  © 2024 Talenta Figan
+copyright :  © 2024 Figan
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
@@ -18,24 +18,28 @@ params:
   # author: ["Me", "You"] # multiple authors
   defaultTheme: light # dark, light
   disableThemeToggle: false
+  
+  homeInfoParams:
+    Title: it's Figan 👋
+    Content: >
+      -
 
-  profileMode:
-        enabled: true
-        title: Talenta Figan
-        subtitle: "Software Engginer, Tech enthusiast"
-        imageUrl: "talentafigan.jpg" # optional
-        imageTitle: "Talenta Figan" # optional
-        imageWidth: 120 # custom size
-        imageHeight: 120 # custom size
-        buttons:
-          - name: Work with me  
-            url: "/contact"
-          - name: See my works
-            url: "https://talentafigan.github.io/cv/#professional-projects"
+      my name is **talenta maulana figan** and i am a self-taught **software engineer**.
+
+      - I love expressing creativity into the masterpiece of technology or lines of code that benefit everyone.
+
+      -
+
+      - if you kinda like to see [**My Works**](/cv/#professional-projects).
+
+      -
+
+      - Regards.
+
 
   socialIcons:
     - name: github
-      url: "https://github.com/talentafigan"
+      url: "https://www.github.com/talentafigan/"
     - name: linkedin
       url: "https://www.linkedin.com/in/talenta-figan-21364b180/"
 
@@ -43,10 +47,6 @@ params:
 menu:
   main:
     - identifier: about
-      name: About Me
+      name: Profile Summary
       url: /cv/
-      weight: 10
-    - identifier: contact
-      name: Contact
-      url: /contact/
-      weight: 10
+      weight: 10 
