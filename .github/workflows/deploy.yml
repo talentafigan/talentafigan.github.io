@@ -1,4 +1,4 @@
-name: Publish to GH Pages
+name: hugo build & publish
 on:
   push:
     branches:
@@ -9,26 +9,26 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout source
+      - name: checkout source
         uses: actions/checkout@v3
         with:
           submodules: true
 
-      - name: Checkout destination
+      - name: checkout server branch
         uses: actions/checkout@v3
         if: github.ref == 'refs/heads/master'
         with:
           ref: gh-pages
           path: built-site
 
-      - name: Setup Hugo
+      - name: fetch hugo installer
         run: |
           curl -L -o /tmp/hugo.tar.gz 'https://github.com/gohugoio/hugo/releases/download/v0.110.0/hugo_extended_0.110.0_linux-amd64.tar.gz'
           tar -C ${RUNNER_TEMP} -zxvf /tmp/hugo.tar.gz hugo          
-      - name: Build
+      - name: build hugo source
         run: ${RUNNER_TEMP}/hugo
 
-      - name: Deploy
+      - name: propagate build output to server branch
         if: github.ref == 'refs/heads/master'
         run: |
           cp -R public/* ${GITHUB_WORKSPACE}/built-site/
@@ -36,5 +36,5 @@ jobs:
           git add .
           git config user.name 'talentafigan'
           git config user.email 'talentafigan@gmail.com'
-          git commit -m 'Updated site'
-          git push  
+          git commit -m 'build hugo latest'
+          git push          
