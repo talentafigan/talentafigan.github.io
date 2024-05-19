@@ -63,4 +63,4 @@ I’m interested in freelance opportunities – especially ambitious or large pr
 
 - Download resume : [figan_resume.pdf](./figan-resume.pdf) (64,5 KB) 
 - Email : [talentafigan@gmail.com](mailto:talentafigan@gmail.com)
-- Telegram : [@talentamfigan](https://t.me/talentamfigan)
+- Telegram : [@talentafigan](https://t.me/talentafigan)
