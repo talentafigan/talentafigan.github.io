@@ -53,7 +53,7 @@ Semarang, Jawa Tengah, Indonesia
 
 - **Language** : Indonesia, English
 - **Programming Language** : Javascript/Typescript, Dart, Java
-- **Framework** : React, Vue, Nuxt, Next, Flutter, Java Spring Boot
+- **Framework** : ReactJS, VueJS, NuxtJS, Next, NestJS, Flutter, Spring Boot
 
 ---------
 
