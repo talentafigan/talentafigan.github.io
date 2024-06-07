@@ -9,11 +9,14 @@
     <copyright>© 2024 Figan</copyright><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>http://localhost:1313/cv/</link>
+      <link>http://localhost:1313/work/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/cv/</guid>
-      <description>Professional Project Projects Description Year Hand-on Tech Sharia Core Banking System of BPRS Hik Parahyangan web-based core banking system to accommodate banking operations with sharia concepts 2021 - 2022 Vue.JS Inatti.id indonesian online covid test &amp;amp; telepharmacy system under the ownership of Unpad Injabar 2021 - 2022 Next.JS Pakmo Mojokerto web-based population administration by mojokerto local goverment for making identity cards, certificates and other things that are completely done online 2022 - 2023 Next.</description>
+      <guid>http://localhost:1313/work/</guid>
+      <description>1. BPRS HIK Parahyangan (Online Integrated Banking Sharia System) Web-based core banking system to accommodate banking operations with sharia concepts
+2. PAKMO Mojokerto Web-based population administration by mojokerto local goverment for making identity cards, certificates and other things that are completely done online
+3. WOW Konsultan B2C platform that brings together consultants and customers for activities such as business, legal and tax consulting enabling synchronous video calls &amp;amp; chats
+4. Bursa Efek Indonesia (Indonesian Stock Exhange Portal) Web-based administration portal of internal indonesian stock exchange members</description>
     </item>
     
   </channel>
