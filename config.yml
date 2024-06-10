@@ -22,7 +22,7 @@ params:
   homeInfoParams:
     Title: it's Figan 👋
     Content: >
-      - I am **Talenta Figan**, a dedicated Software Engineer with **4 years** of experience in developing and maintaining software applications. Skilled in **Javascript, Dart, React, Vue, Flutter, Node & Express**. I have a strong track record of delivering high-quality software solutions.
+      - I am **Talenta Figan**, a dedicated Software Engineer with over **4 years** of experience in building and maintaining **Web Application, Mobile Application & Dekstop Application**. Skilled in **[Javascript](https://javascript.com), [Dart](https://dart.dev), [React](https://react.dev), [Vue](https://vuejs.org), [Flutter](https://flutter.dev), [Node](https://nodejs.org) & [Express](https://expressjs.com)** and much more. I have a strong track record of delivering high-quality software solutions.
 
       -
 
@@ -41,6 +41,8 @@ params:
       url: "https://www.github.com/talentafigan/"
     - name: linkedin
       url: "https://www.linkedin.com/in/talenta-figan-21364b180/"
+    - name: telegram
+      url: "https://t.me/talentafigan"
 
 
 menu:
