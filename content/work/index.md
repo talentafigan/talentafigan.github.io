@@ -19,11 +19,11 @@ Web-based administration portal of internal indonesian stock exchange members
 ![Project](./inatti.png)
 Online COVID-19 test apps have been crucial in enhancing the responsiveness of health systems to the pandemic. 
 
-#### 5. [Wofhoo](https://wofhoo.com)
+#### 6. [Wofhoo](https://wofhoo.com)
 ![Project](./wofhoo.png)
 Empowers teams to collaborate, communicate, and innovate without the constraints of a physical office. Join the future of work with our virtual office application and experience a new level of productivity and engagement.
 
 
-#### 6. Nectar (Android & IOS)
+#### 7. Nectar (Android & IOS)
 ![Project](./nectar.png)
 Online grocery apps make shopping for groceries easy and convenient
